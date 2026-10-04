@@ -1,0 +1,23 @@
+{
+  "name": "business-operations-agent-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business Operations Agent Copilot - Monorepo with reusable agents, tools, APIs, and shared packages",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "keywords": [
+    "ai-agent",
+    "business-operations",
+    "copilot",
+    "monorepo"
+  ],
+  "author": "HackPulse Jaipur Team",
+  "license": "MIT"
+}

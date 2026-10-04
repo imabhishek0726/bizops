@@ -1,0 +1,10 @@
+{
+  "name": "@bizops/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Shared package ready'"
+  }
+}

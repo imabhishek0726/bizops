@@ -1,0 +1,14 @@
+{
+  "name": "@bizops/agent",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@bizops/shared": "*",
+    "@bizops/tools": "*"
+  },
+  "scripts": {
+    "build": "echo 'Agent package ready'"
+  }
+}
